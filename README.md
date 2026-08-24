@@ -38,12 +38,19 @@ Instead of one big backend, I split everything into 23+ small AWS Lambda functio
 ## Project structure
 wealthguard-repo/
 ├── backend/
-│ └── lambda-functions/ # each Lambda function in its own folder
+
+│└── lambda-functions/ # each Lambda function in its own folder
+
 ├── frontend/
+
 │ └── src/
+
 │ ├── pages/ # 13 pages
+
 │ └── components/ # shared UI components
+
 └── docs/
+
 └── PROJECT_STATUS.md # what's actually tested vs what isn't yet
 
 ## A note on security
